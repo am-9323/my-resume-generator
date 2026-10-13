@@ -45,7 +45,7 @@ docs/
 | 認証 | Supabase Auth | API は NestJS の Guard で JWT を JWKS 検証する（jose） |
 | ファイル保存 | Supabase Storage（非公開バケット） | 写真の表示には API が署名付きURLを発行する |
 | PDF生成 | HTML/CSS → Playwright（Chromium） | API 側で生成する。詳細は試作で確定させる |
-| テスト | Vitest（web）、Jest（api: NestJS 標準） | E2E は必要になってから検討 |
+| テスト | Vitest | E2E は必要になってから検討 |
 | Lint・フォーマット | Biome | |
 | CI | GitHub Actions | lint・型チェック・テスト |
 
