@@ -3,3 +3,6 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# セッション間の引き継ぎ用メモ（ローカルのみで使う）
+docs/handoff.md
